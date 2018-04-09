@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Art quiz</string>
+    <string name="question_1">Question 1.</string>
+    <string name="leonardo_davinci">What is Leonardo DaVinci\'s the most popular masterpiece?</string>
+    <string name="enter_here">Enter your answer here</string>
+    <string name="question_2">Question 2.</string>
+    <string name="french_impressionists">Which painters were french impressionists?</string>
+    <string name="claude_monet">Claude Monet</string>
+    <string name="john_peter_russell">John Peter Russell</string>
+    <string name="edgar_degas">Edgar Degas</string>
+    <string name="question_3">Question 3.</string>
+    <string name="van_gogh">What age did Van Gogh decide to become an artist?</string>
+    <string name="_5">5</string>
+    <string name="_14">14</string>
+    <string name="_27">27</string>
+    <string name="question_4">Question 4.</string>
+    <string name="name_painting">What is the name of this painting?</string>
+    <string name="missing_home">Missing home</string>
+    <string name="christina_s_world">Christina`s world</string>
+    <string name="farm">Farm</string>
+    <string name="question_5">Question 5.</string>
+    <string name="how_many">What artist has painted the most and how many?</string>
+    <string name="salvador_dali">Salvador Dali - 1560 paintings</string>
+    <string name="pablo_picasso">Pablo Picasso - 13500 paintings</string>
+    <string name="leonardo_davinci_21640">Leonardo DaVinci - 21640 paintings</string>
+    <string name="question_6">Question 6.</string>
+    <string name="largest_art_museum">What is the most largest art museum in the world?</string>
+    <string name="enter_answer">Enter your answer here</string>
+    <string name="question_7">Question 7.</string>
+    <string name="walt_disney">What artist did collaborate with Walt Disney to create a short movie?</string>
+    <string name="joan_miro">Joan Miro</string>
+    <string name="marc_chagall">Marc Chagall</string>
+    <string name="salvador_dali_disney">Salvador Dali</string>
+    <string name="paul_cezanne">Paul Cezanne</string>
+</resources>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/header" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitEnd"
+            android:src="@drawable/bottom" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="60dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="180dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/question_1"
+                android:textAllCaps="true"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/leonardo_davinci"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/leonardo_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/enter_here"
+                android:inputType="textCapWords" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/question_2"
+                android:textAllCaps="true"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/french_impressionists"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/monet_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/claude_monet"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/russell_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/john_peter_russell"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/cezanne_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/paul_cezanne"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/degas_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="24dp"
+                android:text="@string/edgar_degas"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/question_3"
+                android:textAllCaps="true"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/van_gogh"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup_question3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q3_1_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_5"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/q3_2_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_14"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/q3_3_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/_27"
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="16dp"
+                android:text="@string/question_4"
+                android:textAllCaps="true"
+                android:textColor="#FF9800" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/christinas_world" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/name_painting"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup_question4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q4_1_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/missing_home"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/q4_2_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/christina_s_world"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/q4_3_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/farm"
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/question_5"
+                android:textAllCaps="true"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/how_many"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup_question5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q5_1_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/salvador_dali"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/q5_2_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pablo_picasso"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/q5_3_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/leonardo_davinci_21640"
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/question_6"
+                android:textAllCaps="true"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/largest_art_museum"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/louvre_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/enter_answer"
+                android:inputType="textCapWords" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/question_7"
+                android:textAllCaps="true"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/walt_disney"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup_question7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q7_1_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/joan_miro"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/q7_2_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/marc_chagall"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/q7_3_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/salvador_dali_disney"
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </RadioGroup>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="submitAnswers"
+                    android:text="Submit" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
